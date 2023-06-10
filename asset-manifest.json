@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/ShivaniJanghela/Chat-App.git/static/css/main.c4d94611.css",
-    "main.js": "/ShivaniJanghela/Chat-App.git/static/js/main.6bb6a3e6.js",
-    "static/media/profile1.png": "/ShivaniJanghela/Chat-App.git/static/media/profile1.b26a01343cc00f6ada65.png",
-    "static/media/folder.png": "/ShivaniJanghela/Chat-App.git/static/media/folder.aa66c0a912ce2ec72d89.png",
-    "index.html": "/ShivaniJanghela/Chat-App.git/index.html",
-    "main.c4d94611.css.map": "/ShivaniJanghela/Chat-App.git/static/css/main.c4d94611.css.map",
-    "main.6bb6a3e6.js.map": "/ShivaniJanghela/Chat-App.git/static/js/main.6bb6a3e6.js.map"
+    "main.css": "/Chat-App/static/css/main.c4d94611.css",
+    "main.js": "/Chat-App/static/js/main.6fd1e2d2.js",
+    "static/media/profile1.png": "/Chat-App/static/media/profile1.b26a01343cc00f6ada65.png",
+    "static/media/folder.png": "/Chat-App/static/media/folder.aa66c0a912ce2ec72d89.png",
+    "index.html": "/Chat-App/index.html",
+    "main.c4d94611.css.map": "/Chat-App/static/css/main.c4d94611.css.map",
+    "main.6fd1e2d2.js.map": "/Chat-App/static/js/main.6fd1e2d2.js.map"
   },
   "entrypoints": [
     "static/css/main.c4d94611.css",
-    "static/js/main.6bb6a3e6.js"
+    "static/js/main.6fd1e2d2.js"
   ]
 }
