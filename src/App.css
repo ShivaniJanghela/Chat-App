@@ -1,0 +1,17 @@
+
+:root{
+  --appBg : #a7bcff;
+  --darkViolet :#2f2d52;
+  --semiViolet:#3e3c61;
+  --lightViolet:#5d5b8d;
+  --msgBg:#dddbf5;
+  --white1:#ddddf7;
+  --lightBlue:#8da4f1;
+ 
+ 
+}
+.logo{
+  color: var(--lightViolet);
+  font-weight: bold;
+  font-size: 24px;
+}

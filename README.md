@@ -1,0 +1,1 @@
+chatApp is a full-stack real time chat app. Used react for front-end and firebase for back-end, with register and login pages, where user can register to create an account and login to chat with their friends user can send text messages and can also share images with their friends.

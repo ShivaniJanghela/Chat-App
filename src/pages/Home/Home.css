@@ -1,0 +1,24 @@
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:var(--appBg );
+}
+.homeContainer{
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 65%;
+    height: 80%;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+}
+/* @media screen and (max-width:768px){
+    .homeContainer{
+        flex-direction: column;
+    }
+} */
+.homeContainer::-webkit-scrollbar{
+    display: none;
+  }

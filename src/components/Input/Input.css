@@ -1,0 +1,41 @@
+.input{
+    height: 50px;
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.input>input{
+    width: 100%;
+    border: none;
+    outline: none;
+    color: var(--darkViolet);
+    font-size: 18px;
+}
+::placeholder{
+color: lightgrey;
+}
+.send{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.send>img{
+    height: 24px;
+    cursor: pointer;
+}
+
+.send>button{
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    color: white;
+    background-color: var(--lightBlue);
+
+}
+.selectImg{
+    width: 32px;
+    height: 32px;
+}
