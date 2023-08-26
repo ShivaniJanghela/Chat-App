@@ -30,7 +30,7 @@ setErr(true)
 }
 
 const handleKey=(e)=>{
-  e.keyCode===66||e.keyCode===66 && handleSearch()
+  (e.keyCode==84 ||e.keyCode==13) ? handleSearch() : null
 }  
 const handleSelect=async()=>{
   // check whether the group(chats collection in firestore) exists if not create new one
