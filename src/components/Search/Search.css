@@ -1,5 +1,6 @@
 .search{
-   border-bottom: 1px solid gray;    
+   border-bottom: 1px solid gray; 
+   position: relative;   
 }
 .searchForm{
    padding: 10px;
@@ -11,6 +12,14 @@ border: none;
 color: white;
 outline: none;
 
+}
+.searchBtn{
+   display: flex;
+   position: absolute;
+   top: 20%;
+   right: 5%;
+   border-radius: 46%;
+   background-color:  #88a0ed;
 }
 ::placeholder{
     color:lightgray

@@ -71,7 +71,7 @@ const Register = () => {
           <input required style={{ display: "none" }} type="file" id="file" />
           <label htmlFor="file">
             <img className="image" style={{width:22}} src={folder} alt="" />
-            <span style={{ color: "rgb(176, 172, 172)"}}>Add an avatar</span>
+            <span style={{ color: "rgb(176, 172, 172)"}}>Add profile picture</span>
           </label>
           <button disabled={loading}>Sign up</button>
           {loading && "Uploading and compressing the image please wait..."}

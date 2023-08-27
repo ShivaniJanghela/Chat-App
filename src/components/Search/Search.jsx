@@ -30,8 +30,13 @@ setErr(true)
 }
 
 const handleKey=(e)=>{
-  (e.keyCode==84 ||e.keyCode==13) ? handleSearch() : null
+  e.code==="Enter"&& handleSearch()
 }  
+
+const handleClick=()=>{
+  handleSearch()
+} 
+
 const handleSelect=async()=>{
   // check whether the group(chats collection in firestore) exists if not create new one
 
@@ -85,6 +90,9 @@ setUsername("")
         value={username}
         />
     </div>
+    <button className='searchBtn' onClick={handleClick}>
+          Search 
+    </button>
     {err && <span>User not found</span>}
     {user &&(
       <div className="userChat" onClick={handleSelect}>
